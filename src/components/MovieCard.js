@@ -28,8 +28,8 @@ const MovieCard = ({ movie, onPress }) => {
 const styles = StyleSheet.create({
   card: {
     width: 150,
-    height: 280,
-    marginHorizontal: 10,
+    height: 250,
+    marginHorizontal: 8,
     backgroundColor: 'transparent',
     borderRadius: 20,
     alignItems: 'center',
@@ -39,6 +39,7 @@ const styles = StyleSheet.create({
     shadowRadius: 10,
     elevation: 5,
     overflow: 'hidden',
+    marginBottom : 8
   },
   posterWrap: {
     width: '100%',

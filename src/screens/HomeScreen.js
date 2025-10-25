@@ -80,9 +80,9 @@ const styles = StyleSheet.create({
   grid: {
     flexDirection: 'row',
     flexWrap: 'wrap',
-    justifyContent: 'space-between',
+    justifyContent: 'space-evenly',
     rowGap: 6,
     columnGap: 6,
-    paddingHorizontal: 16,
+    paddingHorizontal: 14,
   },
 });

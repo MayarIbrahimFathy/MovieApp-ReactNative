@@ -90,10 +90,10 @@ const styles = StyleSheet.create({
     grid: {
         flexDirection: 'row',
         flexWrap: 'wrap',
-        justifyContent: 'space-between',
+        justifyContent: 'space-evenly',
         rowGap: 12,
-        columnGap: 8,
-        paddingHorizontal: 16,
+        columnGap: 6,
+        paddingHorizontal: 14,
     },
     noResults: {
         fontSize: 16,
